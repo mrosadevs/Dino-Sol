@@ -10,6 +10,8 @@
 
 **A fully immersive, animated landing page for the DinoSol NFT collection.**
 
+> 🕰️ *Originally built in 2018, fresh out of high school. Reimagined and rebuilt from the ground up in 2026.*
+
 [🌐 Live Site](https://dinosol.mrosadev.online)
 
 </div>
@@ -53,7 +55,7 @@
 
 ## 🚀 Getting Started
 
-No build step needed — it's a single `index.html` file.
+No build step needed — pure static HTML/CSS/JS.
 
 ```bash
 # Just open it
@@ -69,7 +71,9 @@ npx serve .
 
 ```
 Dino-Sol/
-├── 📄 index.html    # Everything — markup, styles, scripts
+├── 📄 index.html    # Page markup & structure
+├── 🎨 styles.css    # All styles & animations
+├── ⚡ script.js     # Canvas background, scroll effects, interactions
 └── 📖 README.md     # You're here
 ```
 
